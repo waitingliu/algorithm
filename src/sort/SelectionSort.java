@@ -1,7 +1,14 @@
 package sort;
 
 import java.util.Arrays;
-
+/**
+ * 最简单的排序
+ * 第一趟：找到最小的元素，交换位置到第一个
+ * 第二趟：找到第二小的元素，交换到第二个
+ * ...
+ * 不稳定
+ * 时间复杂度：平均、最好、最坏O(n^2)
+ * */
 public class SelectionSort {
 	public static void sort(int[] list){
 		for(int i=0; i<list.length; i++){//第i躺排序

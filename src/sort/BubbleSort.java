@@ -1,5 +1,9 @@
 package sort;
 
+/**
+ * 稳定
+ * 时间复杂度：平均O(n^2)，最坏O(n^2)，最好O(n)
+ * */
 public class BubbleSort {
 	public static void sort(int[] list){
 		int flag;
